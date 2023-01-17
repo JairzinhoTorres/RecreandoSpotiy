@@ -24,7 +24,7 @@ const Home = () => {
 			play.current.play()
 
 		} else {
-			play.current.pause
+			play.current.pause()
 		}
 		setPosicion(index)
 	}
